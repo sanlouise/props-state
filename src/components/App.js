@@ -6,7 +6,7 @@ import ParentComponent from './ParentComponent';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="App container">
         <BaseLayout>
           <ParentComponent />
         </BaseLayout>
